@@ -10,6 +10,14 @@ The emergence of the semantic-aware paradigm presents opportunities for innovati
 
 <img src="./architecture.jpg" width="500px"></img>
 
+# Results
+
+A series of experiments is conducted to perform a numerical evaluation of SAMA-D3QL. Each experiment involves a comparison between SAMA-D3QL and its semantic-oblivious counterpart (in terms of both network and algorithmic design), referred to as MA-D3QL. The paper provides details of simulations and their corresponding configurations.
+
+<a href="https://github.com/hamidreza-mazandarani/SAMA-D3QL/blob/main/fig3.pdf">Scenario 1: Single-Channel Setting (Experiments #0 and #1 in config.py) </a>
+
+<a href="https://github.com/hamidreza-mazandarani/SAMA-D3QL/blob/main/fig4.pdf">Scenario 2: Multi-channel Setting (Experiments #2, #3 and #4 in config.py) </a>
+
 # Usage
 
 Please go ahead and execute the main.py script. Please reach out to hr.mazandarani@ieee.org with any inquiries.
