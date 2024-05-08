@@ -162,8 +162,8 @@ class Environment(ABC):
             return None
 
         elif observations_str[idx] == 'S':
-            # return successful_sent_size[idx] * self.d2lt_normalized[idx]
-            return successful_sent_size[idx] * self.assistance_scores[idx]
+            return successful_sent_size[idx] * self.d2lt_normalized[idx]
+            # return successful_sent_size[idx] * self.assistance_scores[idx]
 
         elif observations_str[idx] == 'C':
             return 0
